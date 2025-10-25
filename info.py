@@ -31,7 +31,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://image.zaw-myo.workers.dev/image/581b255a-990b-49cc-a914-79e5b6f6d1e6 https://image.zaw-myo.workers.dev/image/d06daf23-6ee5-4b16-bdcd-f0c6043d1918 https://image.zaw-myo.workers.dev/image/7dec1bda-5f68-4662-b98f-d07e400a10b8 https://image.zaw-myo.workers.dev/image/f6617343-eb11-49b9-97e8-c990e6a3e627')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://image.zaw-myo.workers.dev/image/43a25bbb-08f0-4dd9-8e6a-3bf4ea457f8f https://image.zaw-myo.workers.dev/image/774f24ea-024a-4840-80a3-ec5bca96f822')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://envs.sh/Lqs.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
@@ -44,8 +44,8 @@ FSUB_PICS = (environ.get('FSUB_PICS', 'https://image.zaw-myo.workers.dev/image/8
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6045160821').split()] # Replace with the actual admin ID(s) to add
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002998237653 -1002432923495 -1002177098038 -1002311455280 -1002228576325 -1002379115085 -1002203125942 -1002388961956 -1002181251938 -1002336384474 -1002225794978 -1002228607997 -1001974180754 -1002230358129').split()]  # Channel id for auto indexing (make sure bot is admin)
 
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003268092579'))  # Log channel id (make sure bot is admin)
-BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1002224509783'))  # Bin channel id (make sure bot is admin)
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1003110568949'))  # Log channel id (make sure bot is admin)
+BIN_CHANNEL = int(environ.get('BIN_CHANNEL', '-1003110568949'))  # Bin channel id (make sure bot is admin)
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '0'))  # Premium logs channel id
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '-1002301231547').split()] #(make sure bot is admin)
 support_chat_id = environ.get('SUPPORT_CHAT_ID', '0')  # Support group id (make sure bot is admin)
@@ -54,7 +54,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/')  # Support group lin
 
 # FORCE_SUB 
 auth_req_channels = environ.get("AUTH_REQ_CHANNELS", "0")# requst to join Channel for force sub (make sure bot is admin) only for bot ADMINS  
-auth_channels     = environ.get("AUTH_CHANNELS", "-1002057420806 -1002824643553")# Channels for force sub (make sure bot is admin)
+auth_channels     = environ.get("AUTH_CHANNELS", "-1002244888139 -1002824643553")# Channels for force sub (make sure bot is admin)
 
 # ============================
 # Payment Configuration
@@ -96,8 +96,8 @@ LANDSCAPE_POSTER = bool(environ.get('LANDSCAPE_POSTER', True)) # Shows landscape
 # Verification Settings
 # ============================
 IS_VERIFY = is_enabled('IS_VERIFY', True)  # Verification On (True) / Off (False)
-LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1003268092579')) #Verification Channel Id 
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1003268092579')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
+LOG_VR_CHANNEL = int(environ.get('LOG_VR_CHANNEL', '-1003110568949')) #Verification Channel Id 
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1003110568949')) #If Anyone Set Your Bot In Any Group And Set Shortner In That Group Then In This Channel The All Details Come
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://telegra.ph/file/9ecc5d6e4df5b83424896.jpg")
 
 TUTORIAL = environ.get("TUTORIAL", "https://t.me/i_PapkornXBot/232")   # Tutorial link for verification
@@ -120,7 +120,7 @@ THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "54000"))
 # ============================
 # Channel & Group Links Configuration
 # ============================
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/New_Movies_Bots') # Group link for the bot
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/RaxieCatzBot') # Group link for the bot
 OWNER_LNK = environ.get('OWNER_LNK', 'https://t.me/Royal_X_RoxStar') # Owner link for the bot
 UPDATE_CHNL_LNK = environ.get('UPDATE_CHNL_LNK', 'https://whatsapp.com/channel/0029VasPqXXC1Fu2rGjxba1g') # Update channel link for the bot
 
@@ -134,7 +134,7 @@ PREMIUM_USER = [int(user) if id_pattern.search(user) else user for user in envir
 # ============================
 # Miscellaneous Configuration
 # ============================
-ULTRA_FAST_MODE = is_enabled(environ.get('ULTRA_FAST_MODE', "False"), True) # Set to True for fast search, False for original search
+ULTRA_FAST_MODE = is_enabled(environ.get('ULTRA_FAST_MODE', "True"), True) # Set to True for fast search, False for original search
 
 MAX_B_TN = environ.get("MAX_B_TN", "5") # Maximum number of buttons in a row (default: 5)
 PORT = int(environ.get("PORT", "8080"))  # Port for the web server (default: 8080)
