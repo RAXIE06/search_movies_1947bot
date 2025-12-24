@@ -4,7 +4,7 @@ class script(object):
 <blockquote>ɪᴍ ᴛʜᴇ ᴍᴏsᴛ ᴀᴅᴠᴀɴᴄᴇ ᴀɪ ᴘᴏᴡᴇʀᴅ 🤖 ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ..
 sᴇɴᴅ ᴍᴇ ᴀɴʏ ᴍᴏᴠɪᴇ ᴏʀ sᴇʀɪᴇs ɴᴀᴍᴇ ᴀɴᴅ sᴇᴇ ᴍʏ ᴍᴀɢɪᴄ..✨</blockquote>
 
-👑 ᴏғғɪᴄɪᴀʟ ʙᴏᴛ 🔥 ➤ <a href='https://officialfreefirebharat.blogspot.com/2025/09/popcorn-series-official-telegram-bots.html?m=1'>ᴄʟɪᴄᴋ࿐ʜᴇʀᴇ✧</a>
+👑 ᴏғғɪᴄɪᴀʟ ʙᴏᴛ 🔥 ➤ <a href='https://moviebotlist.blogspot.com/2025/11/popcorn-series-official-telegram-bots.html'>ᴄʟɪᴄᴋ࿐ʜᴇʀᴇ✧</a>
 </b>"""
 
 
