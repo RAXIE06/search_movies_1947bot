@@ -31,7 +31,7 @@ INDEX_CAPTION = bool(environ.get('SAVE_CAPTION', True)) # Save caption db when i
 #Making it false will not save caption in db SO you can save some storage space
 
 
-PICS = (environ.get('PICS', 'https://image.zaw-myo.workers.dev/image/43a25bbb-08f0-4dd9-8e6a-3bf4ea457f8f https://image.zaw-myo.workers.dev/image/774f24ea-024a-4840-80a3-ec5bca96f822')).split()  # Sample pic
+PICS = (environ.get('PICS', 'https://image.zaw-myo.workers.dev/image/3120da67-d486-4d3c-873e-f4eb0bb963ce')).split()  # Sample pic
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/e20b5fdaf217252964202.jpg")
 MELCOW_PHOTO = environ.get("MELCOW_PHOTO", "https://envs.sh/Lqs.jpg")
 SPELL_IMG = environ.get("SPELL_IMG", "https://graph.org/file/13702ae26fb05df52667c.jpg")
